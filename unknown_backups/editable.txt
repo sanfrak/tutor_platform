@@ -1,0 +1,73 @@
+header.php
+	#L50, query for user's basic profile (R: unchange)
+
+footer.php
+	#L5, query for subscription (R: unchange)
+
+index.php
+	#L88-118, query for new mentors (R: edit)
+
+contact-us.php
+	#L11, user send feedback to us (R: unchange)
+		affected talbe: tblcontactusquery
+
+page.php
+	#L56, this line will carry out the content to be displayed on the "About Us", "Terms and Conditions", "Privacy Policy", and "FAQs". (R: edit just content)
+
+login.php
+	#L8, validate the user credentials (R: unchange)
+		affected talbe: tblusers
+
+registration.php
+	#L11, register the user credentials (R: unchange)
+		affected talbe: tblusers
+
+forgotpassword.php
+	#L7, reset the user credentials (R: unchange)
+		affected talbe: tblusers
+
+update-password.php
+	#L16,137, validate the user credentials (R: unchange)
+		affected talbe: tblusers
+
+profile.php
+	#L122, display the user profile (R: edit)
+		affected talbe: tblusers
+	#L20, update the user profile (R: edit)
+		affected talbe: tblusers
+
+my_booking.php
+	#L88, display some user info (R: unchange)
+		affected talbe: tblusers
+	#L121, display the bookings (R: edit)
+		affected talbe: tblusers
+
+car-listing.php & search-carresult.php
+	#L87, display the listing counts (R: edit)
+		affected talbe: tblbrands, tblvehicles
+	#L103, display the queried listings (R: edit)
+		affected talbe: tblbrands, tblvehicles
+	#137/143, <!--Side-Bar-->
+		edit <!--Find Your Mentor--> filters,
+		edit <!--Top Rated Mentors--> listings,
+
+vehical-details.php
+	#L13, sidebar booking function (R: edit)
+		function at #L190
+		affected talbe: tblbooking
+	#L89, display the listing (R: edit)
+		affected talbe: tblvehicles, tblbrands
+-------------------------------------------------------
+
+
+
+
+
+
+/admin/dashboard.php
+leave listed vehicles, total bookings
+LEFTSIDEBAR:
+leave dashboard, Vehicles, manage booking
+
++++/admin/register.php
+

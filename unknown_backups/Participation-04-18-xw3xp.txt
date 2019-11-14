@@ -1,0 +1,22 @@
+Participation-04-18
+ID: xw3xp
+
+Q1
+	estimating item frequency,
+	finding top-k hot items
+	detecting heavy changes
+
+
+Q2
+	vanilla SQLite: the identifier is appended to the Dirty list
+	SQLite/SSL: the log capturer captures a log of statements and adds them to SLB
+
+Q3
+	precedence graph
+
+	T1 -----X-----> T2
+	 ^  <--Y------  /
+	  \			   /
+	 Y \		  / Y,Z
+	    \		 /
+	     \ T3 <-/
